@@ -70,7 +70,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const header = () => {
   return (
     <header style={styles.header}>
       <h1 style={styles.title}>My App</h1>
@@ -138,4 +138,4 @@ const styles = {
   },
 };
 
-export default Header;
+export default header;

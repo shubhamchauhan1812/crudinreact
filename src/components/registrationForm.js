@@ -4,7 +4,7 @@ import DataTable from './DataTable';
 // Adjust the import based on your file structure
 import './style.css';
 
-function RegistrationForm() {
+function registrationForm() {
 
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
@@ -227,4 +227,4 @@ function RegistrationForm() {
     );
 }
 
-export default RegistrationForm;
+export default registrationForm;

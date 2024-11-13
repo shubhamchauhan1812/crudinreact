@@ -6,8 +6,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';  // Correct import
 //import ReactDOM from "react-dom";
 import './App.css';
-import Header from './components/Header';
-import RegistrationForm from './components/RegistrationForm';
+import Header from './components/header';
+import RegistrationForm from './components/registrationForm';
 import Login from './components/Login';
 import LoginBootstrap from './components/LoginBootstrap';
 import ListData from './components/ListData';
@@ -43,7 +43,7 @@ function Layout() {
       <Header />
       <div style={{ paddingBottom: '50px' }}> {/* Adjust for footer height */}
         <Routes>
-          <Route path="/registrationForm" element={<RegistrationForm />} />
+          <Route path="/registrationForm" element={<registrationForm />} />
           <Route path="/login" element={<Login />} />
           {/* <Route path="/loginBootstrap" element={<LoginBootstrap />} /> */}
           <Route path="/listData" element={<ListData />} />
